@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ashine 的博客</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Ashine 的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Mon, 16 Mar 2020 22:48:11 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>如何用 Hugo 搭建个人博客</title>
+      <link>http://example.org/posts/%E5%A6%82%E4%BD%95%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 16 Mar 2020 22:48:11 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E5%A6%82%E4%BD%95%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>大家好，今天来说一下怎么用 Hugo 搭建个人博客，在这里会用到以下几款工具 Cmder，Vscode 和 Markdow ，希望此文章对大家有所帮助~下面我们就进入正题吧~
+安装Hugo 1.到官网gohugo.io/categories/releases里下载适合自己电脑的安装包
+2.把安装包的绝对路径放到PATH（计算机→属性→高级系统设置→高级→环境变量→找到变量PATH→添加绝对路径进去→ok）
+3.打开Cmder，运行hugo version查看版本，显示版本号则表示安装成功啦~✿✿ヽ(°▽°)ノ✿
+搭建博客 1.进入https://gohugo.io/官网
+2.点击Quick Start 按钮
+3.然后先看一遍Step1至Step7，Step1是说要安装，我们前面已完成，现在从Step2开始
+4.在你D盘里新建一个文件夹，Cmder定位到此文件夹，然后按顺序依次在终端运行以下代码，每运行一行代码都需按回车！！！
+step 2 hugo new site quickstart  quickstart 改为你自己的仓库名，如 hugo new site kidnapped33.github.io-creator，注意仓库名需全小写~
+此时你的文件夹里有一个 kidnapped33.github.io-creator 的文件夹
+在Cmder里定位到此文件夹
+Step 3 git init  git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke  echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml  Step 4 hugo new posts/my-first-post.md  这里是创建一篇新的文章为.md后缀的文件
+my-first-post 改为 文件名，如 hugo new posts/开博大吉.md
+到这里后，你打开你的文件夹kidnapped33.github.io-creator\content\post（你文件夹里的content里的post），里面就有 开博大吉.md （如下图）</description>
+    </item>
+    
+  </channel>
+</rss>
