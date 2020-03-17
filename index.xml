@@ -33,5 +33,14 @@ my-first-post 改为 文件名，如 hugo new posts/开博大吉.md
 到这里后，你打开你的文件夹kidnapped33.github.io-creator\content\post（你文件夹里的content里的post），里面就有 开博大吉.md （如下图）</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>http://kidnapped33.github.io/posts/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E9%87%8C%E6%B7%BB%E5%8A%A0%E5%9B%BE%E7%89%8703-17%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://kidnapped33.github.io/posts/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E9%87%8C%E6%B7%BB%E5%8A%A0%E5%9B%BE%E7%89%8703-17%E8%AE%B0%E5%BD%95/</guid>
+      <description>如何在hugo里添加图片（03-17记录）  找到目录文件夹里的static新建images文件夹 → kidnapped33.github.io-creator\static\images 放入图片 1.png 找到目录文件夹里的content\posts → kidnapped33.github.io-creator\content\posts，打开你的文件，放图片路径 5. 保存，重新上传到github * 找到目标文件夹kidnapped33.github.io-creator   hugo git add . git commit -v 输入原因 → 保存 → 关闭 cd public git add . git commit -v 输入原因 → 保存 → 关闭 git push ```</description>
+    </item>
+    
   </channel>
 </rss>
