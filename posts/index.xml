@@ -17,7 +17,7 @@
       <pubDate>Mon, 16 Mar 2020 22:48:11 +0800</pubDate>
       
       <guid>http://kidnapped33.github.io/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
-      <description>大家好，今天来说一下怎么用 Hugo 搭建个人博客，在这里会用到以下几款工具 Cmder，Vscode 和 Markdow ，希望此文章对大家有所帮助~下面我们就进入正题吧~
+      <description>大家好，今天来说一下怎么用 Hugo 搭建个人博客，在这里会用到以下几款工具 Cmder，Vscode 和 Markdow ，希望此文章对大家有所帮助~下面我们就进入正题~~~
 安装Hugo 1.到官网gohugo.io/categories/releases里下载适合自己电脑的安装包
 2.把安装包的绝对路径放到PATH（计算机→属性→高级系统设置→高级→环境变量→找到变量PATH→添加绝对路径进去→ok）
 3.打开Cmder，运行hugo version查看版本，显示版本号则表示安装成功啦~✿✿ヽ(°▽°)ノ✿
